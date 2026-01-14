@@ -26,7 +26,16 @@ public class MonthlyBudgeting {
 		
 		System.out.println("Monthly Budgeting Software\n");
 		System.out.println("What is your Monthly Income?");
-		monthlyIncome = sc.nextDouble();
+		try {
+			
+			monthlyIncome= sc.nextDouble();
+		}
+		
+		catch (Exception e) {
+			
+			System.out.println("Invalid Entry");
+		}
+		method2(monthlyIncome);
 
 	}
 	
@@ -34,10 +43,10 @@ public class MonthlyBudgeting {
 	
 	
 	
-	public static String method1(String a) {
+	public static void method2(double a) {
 		
-		
-		
+		if (a< 0)
+			System.out.println("Invalid Input");
 	}
 	
 	
