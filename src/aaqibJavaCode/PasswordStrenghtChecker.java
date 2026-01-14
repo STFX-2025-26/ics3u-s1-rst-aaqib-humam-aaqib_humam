@@ -1,6 +1,5 @@
 package aaqibJavaCode;
 import java.util.Scanner;
-import aaqibJavaCode.StringLength;
 public class PasswordStrenghtChecker {
 	
 	public static void main(String[] args) {
@@ -32,6 +31,7 @@ public class PasswordStrenghtChecker {
 		
 		validLength = StringLength.lengthCheck(password);
 		
+		// if false
 		if (validLength == false) {
 			
 			//check if password contains letters
