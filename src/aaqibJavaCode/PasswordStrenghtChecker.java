@@ -13,6 +13,9 @@ public class PasswordStrenghtChecker {
 		boolean hasSpecialChar = true;
 		boolean isStrong = true;
 		
+		// user input
+		
+		
 		
 	}
 
