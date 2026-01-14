@@ -34,7 +34,11 @@ public class MonthlyBudgeting {
 	
 	
 	
-	
+	public static String method1(String a) {
+		
+		
+		
+	}
 	
 	
 
