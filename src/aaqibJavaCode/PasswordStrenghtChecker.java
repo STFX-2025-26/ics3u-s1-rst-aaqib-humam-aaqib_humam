@@ -69,13 +69,13 @@ public class PasswordStrenghtChecker {
 						
 						System.out.println("okay password but short");
 						
-					}
+					} // end of spec char == false
 			
-				}
+				} // end of has number == true
 					
-			}
+			}  // end of has letter == true
 		
-	}
+		} // end of valid length == false
 		
 		
 		if (validLength == true) {
@@ -109,15 +109,20 @@ public class PasswordStrenghtChecker {
 						
 						System.out.println("strong password");
 				
-					 }
+					}
 					
 					if (hasSpecialChar == false) {
 						
 						System.out.println("okay password");
 						
-					 }	
-				 }
-			}
-	}
- }
-}
+					} // end of spec char == false	
+					
+				} //end of has numbers == true
+				
+			} // end of has letters == true
+			
+		} //end of valid lenght == true
+		
+	} // end of main method
+	
+} //end of public class
