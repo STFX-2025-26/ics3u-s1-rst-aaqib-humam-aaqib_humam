@@ -11,7 +11,6 @@ public class PasswordStrenghtChecker {
 		boolean hasLetters = true;
 		boolean hasNumbers = true;
 		boolean hasSpecialChar = true;
-		boolean isStrong = true;
 		Scanner sc = new Scanner (System.in);
 		
 		// user input
@@ -122,7 +121,7 @@ public class PasswordStrenghtChecker {
 			} // end of has letters == true
 			
 		} //end of valid lenght == true
-		
+	
 	} // end of main method
 	
 } //end of public class
